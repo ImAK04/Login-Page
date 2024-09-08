@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign_styles.css">
+</head>
+<body>
+  <div class="row">
+    <!--Left Side-->
+    <div class="side-left">
+      <section>
+        <h1>Welcome To Healthify_AK</h1>
+        <h2>Create your account and start your journey with us towards a healthy life.</h2>
+      </section>
+    </div>
+    <!--Right Side-->
+    <div class="side-right">
+      <section>
+        <h1>Register Now</h1>
+        <p>Please enter your details below:</p>
+
+          <table> 
+            <form> 
+                <tr> 
+                    <td> 
+                      <label for="first name">First Name :</label>
+                    </td> 
+                    <td><input type="text" id="first Name" placeholder="Enter your first name" required>
+                    </td> 
+                </tr> 
+                <tr> 
+                  <td> 
+                    <label for="last name">Last Name :</label>
+                  </td> 
+                  <td>
+                    <input type="text" id="last Name" placeholder="Enter your last name" required>
+                  </td> 
+              </tr>
+              <tr> 
+                <td> 
+                  <label for="DOB">Date of Birth :</label>
+                </td> 
+                <td class="box">
+                  <input type="date" id="DOB"required>
+                </td> 
+            </tr> 
+            <tr> 
+              <td> 
+                <label for="contact">Contact Number :</label>
+              </td> 
+              <td class="box">
+                <input type="number" id="contact" placeholder="Enter your contact number" required>
+              </td> 
+          </tr>          
+        </form> 
+      </table> 
+        <form>
+          <label for="gender">Gender :</label>
+            
+          <input type="radio" name="gender" class="radio" value="male">Male
+          <input type="radio" name="gender" class="radio" value="female">Female
+          <input type="radio" name="gender" class="radio" value="others">Prefer Not to Say
+          <hr>
+
+          <label for="username">Username :</label>
+          <input type="text" id="username" placeholder="Create your account username" required>
+          <br>
+
+          <label for="password">Password :</label>
+          <input type="text" id="password" placeholder="Create your 8 characters password" required>
+          <br>
+
+          <input type="checkbox" name="agree" class="radio" required>I agree to the Terms and Conditions
+          <br>
+          
+            <button type="submit">Sign Up</button>
+          </form> 
+            
+      </section>
+    </div>
+   </div> 
+</body>
+</html>
